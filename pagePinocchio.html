@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="hamburger.css">
+        <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="pageStyle.css">
+
+        <script src="menuHide.js" defer></script>
+
+
+        <meta name="viewport" content="width=device-width, initialscale=1">
+        <script src="sliderScript.js" defer></script>
+        <script>
+            function toggleActive(elementId) {
+              document.getElementById(elementId).classList.toggle("active");
+            }
+          </script>
+    </head>
+    <body>
+        <div class="content-wrap">
+            <div id="menu">
+                <div id="hamburger" onclick="toggleActive('menu')">
+                  <div class="hamburgerBar"></div>
+                  <div class="hamburgerBar"></div>
+                  <div class="hamburgerBar"></div>
+                </div>
+                <div id="logo"><a href="main.html#about"><img src="Media/FirmaBianca@4x.png" alt=""></a></div>
+                
+                <ul>
+                  <li><a href="main.html#about">About</a></li>
+                  <li><a href="main.html#projects">Projects</a></li>
+                  <li><a href="main.html#showcase">Other Works</a></li>
+                </ul>
+              </div>
+
+
+
+        <div class="wrapper full-width" style="padding-top: 150px;">
+          <video width="1080" autoplay muted controls>
+            <source src="Media/pinocchio/videoTrailer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+
+          <a href="https://giovannimalausa.github.io/Pinocchio/" id="playPinocchio" class="big-card"> <p>PLAY NOW</p></a>     
+        
+        </div>
+
+        <div class="wrapper">
+
+          <div class="about-text page-intro paddingBottom1">
+            <h2>Pinocchio. Storia di una Vendetta</h2>
+              <p>
+                With a combination of 3D modeling and JavaScript programming, a video game inspired by the story of Pinocchio is born... 
+                with a macabre twist. A series of renders narrates the story that precedes the ad venture the player embarks on, 
+                assuming the role of the character in a side-scrolling platform shooter.
+              </p>
+        </div>
+
+  </div>
+
+
+        <div class="sliderWrapper full-width">
+          <i id="left" class="fa-solid fa-angle-left"><</i>
+          <ul class="carousel">
+            <li class="sliderCard">
+              <div class="img"><img src="Media/pinocchio/scena1.jpg" alt="img" draggable="false"></div>
+            </li>
+            <li class="sliderCard">
+              <div class="img"><img src="Media/pinocchio/scena2.jpg" alt="img" draggable="false"></div>
+
+            </li>
+            <li class="sliderCard">
+              <div class="img"><img src="Media/pinocchio/scena3.jpg" alt="img" draggable="false"></div>
+
+            </li>
+            <li class="sliderCard">
+              <div class="img"><img src="Media/pinocchio/trasferimento.png" alt="img" draggable="false"></div>
+
+            </li>
+            <li class="sliderCard">
+              <div class="img"><img src="Media/pinocchio/trasferimento (1).png" alt="img" draggable="false"></div>
+
+            </li>
+
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right">></i>
+        </div>
+
+        
+        <div class="wrapper about-text paddingTop1 paddingBottom1">
+          <p>Three scenes tell the alternative story of a revenge-thirsty Pinocchio, 
+            while two others explain the possible endings of the video game. 
+            Autodesk 3D Studio Max was used to model and render the five scenes.
+          </p>
+          <p class="paddingTop1">Pinocchio jumps and shoots smoothly thanks to the large number 
+            of animations present in his spritesheet. To complete Pinocchio's revenge, 
+            the player must traverse three levels, overcoming enemy firepower and being careful 
+            not to run out of ammunition or health points.</p>
+        </div>
+
+      </div>
+
+      <div class="content-wrap">
+
+        <div class="wrapper about-text ">
+          <img src="Media/pinocchio/animazioniPinocchio.gif" alt="">
+          <p class="paddingTop1 paddingBottom1">
+      
+            The three types of enemy marionettes in Pinocchio interact with the player in different ways, 
+            hindering the path to reach the 'boss' Mangiafuoco. 
+            The construction of the game mechanics was carried out by writing code in JavaScript, 
+            with the help of the Phaser 2.0 framework, 
+            which allowed programming various types of behavior for the marionettes.
+          </p>
+        </div>
+
+        <div class="wrapper wOrizzontale full-width">
+          <img src="Media/pinocchio/lv1anim.gif" alt="">
+          <img src="Media/pinocchio/lv2anim.gif" alt="">
+          <img src="Media/pinocchio/lv3anim.gif" alt="">
+        </div>
+
+        <div class="wrapper about-text paddingTop1 paddingBottom1"><p>
+          To reach Mangiafuoco's theater, the final destination of the game, Pinocchio must overcome three levels, 
+          each with checkpoints from which the character can restart in case of defeat. 
+          The background graphics of the levels are drawn in a flat style; 
+          the muted colors contrast with the carnage that Pinocchio must carry out to complete his mission.
+        </p></div>
+      </div>
+
+      <div class="content-wrap">
+
+        <div class="wrapper"><h1>Info</h1></div>
+
+        <div class="wrapper infoTab">
+            <li>Role</li>            <li>Programming, animation</li>
+
+            <li>Programs</li>            <li>JavaScript (Phaser 2), Abobe Illustrator</li>
+
+            <li>Course</li>            <li>Laboratorio di Computer Grafica</li>
+
+            <li>Teachers</li>            <li>Maresa Bertolo, Loredana Micoli, Vincenzo Rana</li>
+
+            <li>AY</li>            <li>2021 / 22</li>
+
+            <li>Group</li>            <li>11 components</li>
+
+
+
+        </div>
+
+      </div>
+
+        
+    
+          <footer>
+          <div class="footer-grid">
+                  <p>Contacts:</p>
+                  <p></p>
+                  <p>email</p>
+                  <p class="separator">|</p>
+                  <p>Instagram</p>
+                  <p class="separator">|</p>
+                  <p>Behance</p>
+                  <p class="separator">|</p>
+                  <p>Linkedin</p>
+              <p>Site Map:</p>
+              <p></p>
+                  <p>About</p>
+                  <p class="separator">|</p>
+                  <p>Main projects</p>
+                  <p class="separator">|</p>
+                  <p>Other works</p>
+          </div>
+         </footer>
+        <script>
+        </script>
+    </body>
+</html>
