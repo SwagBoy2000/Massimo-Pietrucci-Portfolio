@@ -141,6 +141,11 @@
 
 
 
+
+.content-wrap {
+  max-width: 900px;
+}
+
 .page-intro {
   grid-column: 1 / span 4;
 }
@@ -170,12 +175,6 @@ font-size: clamp(24px, 7vw, 48px);
 .infoTab li:nth-child(odd) {
 text-align: end;
 }
-
-
-
-
-
-
 
 
 
