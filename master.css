@@ -191,11 +191,17 @@ li a:hover {
     grid-template-columns: repeat(4, 1fr);
 }
 
-
-
-.about-text {
+.real-about-text {
     grid-column: 1 / span 3;
     font-size: clamp(14px, 2.5vw, 28px);
+  }
+
+  .real-about-text p {
+    transition: 0.3s;
+}
+
+.about-text {
+    font-size: clamp(14px, 1.5vw, 26px);
   }
 
 .about-text p {
@@ -505,9 +511,15 @@ footer p a {
 
     .wOrizzontale {
         flex-direction: row;
-        height: 400px;
+        height: 25vw;
         gap: 20px;
     }
+
+    .three-items {
+        height: 20vw;
+    }
+
+
 
     .about-text {
         grid-column: 1 / span 2;
