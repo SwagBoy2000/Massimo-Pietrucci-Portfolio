@@ -99,20 +99,26 @@ video {
     height: 60px;
     background: linear-gradient(180deg, rgba(28,28,28,1) 0%, rgba(28,28,28,0) 100%);
     padding-top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+ /*   left: 50%;
+    transform: translateX(-50%);   */
+    margin: 0 auto; /* Center the menu */
     transition: 0.5s;
 }
 /*background: rgba(200, 200, 200, 0.1);*/
 
 #logo {
-    height: clamp(40px, 3vw, 56px);
     margin-right: 5%;
+    height: auto;
+}
+
+#logo img {
+    height: clamp(40px, 3vw, 56px);
+    max-width: 100%;
+    width: auto;
 }
 
 #menu.active #logo {
    display: none;
-
 }
 
 #menu ul {
